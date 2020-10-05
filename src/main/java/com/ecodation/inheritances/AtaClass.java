@@ -34,6 +34,34 @@ public class AtaClass implements Serializable {
 				+ ",sesKarti=" + sesKarti + "]";
 	}
 
+	/*
+	 * @Override public int hashCode() { final int prime = 31; int result = 1;
+	 * result = prime * result + ((anakart == null) ? 0 : anakart.hashCode());
+	 * result = prime * result + ((ekran == null) ? 0 : ekran.hashCode()); result =
+	 * prime * result + ((ekranKarti == null) ? 0 : ekranKarti.hashCode()); result =
+	 * prime * result + ((klavye == null) ? 0 : klavye.hashCode()); result = prime *
+	 * result + ((sesKarti == null) ? 0 : sesKarti.hashCode()); return result; }
+	 * 
+	 * @Override public boolean equals(Object obj) { if (this == obj) return true;
+	 * if (obj == null) return false; if (getClass() != obj.getClass()) return
+	 * false; AtaClass other = (AtaClass) obj; if (anakart == null) { if
+	 * (other.anakart != null) return false; } else if
+	 * (!anakart.equals(other.anakart)) return false; if (ekran == null) { if
+	 * (other.ekran != null) return false; } else if (!ekran.equals(other.ekran))
+	 * return false; if (ekranKarti == null) { if (other.ekranKarti != null) return
+	 * false; } else if (!ekranKarti.equals(other.ekranKarti)) return false; if
+	 * (klavye == null) { if (other.klavye != null) return false; } else if
+	 * (!klavye.equals(other.klavye)) return false; if (sesKarti == null) { if
+	 * (other.sesKarti != null) return false; } else if
+	 * (!sesKarti.equals(other.sesKarti)) return false; return true; }
+	 */
+
+	@Override
+	protected void finalize() throws Throwable {
+		// TODO Auto-generated method stub
+		super.finalize();
+	}
+
 	public void ataMethod() {
 		System.out.println("Ata metodum");
 	}
