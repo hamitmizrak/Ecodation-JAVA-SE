@@ -1,4 +1,4 @@
-package com.ecodation.list.lav;
+package com.ecodation.ornek.list;
 
 import java.util.ArrayList;
 import java.util.List;

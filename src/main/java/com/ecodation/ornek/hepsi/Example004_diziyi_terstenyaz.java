@@ -1,4 +1,4 @@
-package com.ecodation.examples;
+package com.ecodation.ornek.hepsi;
 
 public class Example004_diziyi_terstenyaz {
 

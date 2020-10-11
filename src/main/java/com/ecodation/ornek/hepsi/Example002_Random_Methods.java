@@ -1,4 +1,4 @@
-package com.ecodation.examples;
+package com.ecodation.ornek.hepsi;
 
 import java.util.Random;
 import java.util.Scanner;
