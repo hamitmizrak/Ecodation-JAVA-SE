@@ -2,7 +2,7 @@ package com.ecodation.ornek.bolum003;
 
 import java.util.Scanner;
 
-public class Example001_Console_Dizi_Boyut {
+public class DiziExample001_Console_Dizi_Boyut {
 
 	public static void main(String[] args) {
 		Scanner klavye = new Scanner(System.in);

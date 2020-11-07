@@ -2,6 +2,7 @@ package com.ecodation.lambda;
 
 interface IDeneme {
 	public String ecodation();
+
 }
 
 public class A01_GovdesizMetot {
@@ -23,6 +24,7 @@ public class A01_GovdesizMetot {
 			return "kısa ve sade";
 		};
 		System.out.println(dene3.ecodation());
+		System.out.println("deneme");
 
 	}
 

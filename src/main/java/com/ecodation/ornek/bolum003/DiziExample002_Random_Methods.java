@@ -3,7 +3,7 @@ package com.ecodation.ornek.bolum003;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Example002_Random_Methods {
+public class DiziExample002_Random_Methods {
 
 	public static void main(String[] args) {
 		Scanner klavye = new Scanner(System.in);

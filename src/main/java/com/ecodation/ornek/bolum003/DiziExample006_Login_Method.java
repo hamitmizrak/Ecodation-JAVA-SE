@@ -2,7 +2,7 @@ package com.ecodation.ornek.bolum003;
 
 import java.util.Scanner;
 
-public class Example006_Login_Method {
+public class DiziExample006_Login_Method {
 
 	public static boolean login() {
 		Scanner klavye = new Scanner(System.in);
