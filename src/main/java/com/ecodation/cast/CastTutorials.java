@@ -34,7 +34,7 @@ public class CastTutorials {
 		String str7 = Integer.toString(i6);
 		System.out.println(34 + str7);
 
-		// boxing
+		// boxing=primitiveden wrapper cevirdim.
 		int primitive = 55;
 		Integer buyuk = primitive;
 

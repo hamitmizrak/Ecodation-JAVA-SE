@@ -11,14 +11,22 @@ public class FormatTuto {
 		 * System.out.printf("%5s %d %10.2f \r\n",s,i,d); String
 		 */
 
-		String s = "Ecodation Java SE Hamit Mızrak";
-		int d = 44;
-		float f = 34.23f;
-		System.out.printf("%s %d %f", s, d, f);
-		System.out.println();
-		System.out.printf("%50s %d %f", s, d, f);
-		System.out.println();
-		System.out.printf("%50s %d %10.2f", s, d, f);
+//		String s = "Ecodation Java SE Hamit Mızrak";
+//		int d = 44;
+//		float f = 34.23f;
+//		System.out.printf("%s %d %f", s, d, f);
+//		System.out.println();
+//		System.out.printf("%50s %d %f", s, d, f);
+//		System.out.println();
+//		System.out.printf("%50s %d %10.2f", s, d, f);
+
+		String stringx = "Merhabalar";
+		float floatx = 44.44f;
+		int decimalx = 34;
+		// System.out.println(str + " " + ftr + " " + itr);
+
+		// Se De F
+		System.out.printf("%50s %d %12.4f", stringx, decimalx, floatx);
 
 	}
 

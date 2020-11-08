@@ -12,12 +12,12 @@ public class MilKm {
 		int secim;
 
 		while (true) {
-			System.out.println("\nMil Km hesaplama \n");
+			System.out.println("\nMil Km hesaplama");
 			System.out.println("1-)Hesapla\n2-)Çıkış");
 			secim = klavye.nextInt();
 			switch (secim) {
 			case 1:
-				System.out.println(" hesaplama");
+				System.out.println("hesaplama");
 				hesapla();
 				break;
 			case 2:

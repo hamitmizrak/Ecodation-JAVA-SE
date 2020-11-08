@@ -20,7 +20,7 @@ public class StringTokenizerClass {
 		 */
 
 		String kelime = "Ecodation JavaSE JavaEE SQL,APİ GİT|Html5 Css3,JS Jqery Bootstrap Android";
-		StringTokenizer stringTokenizer = new StringTokenizer(kelime, "|, ");
+		StringTokenizer stringTokenizer = new StringTokenizer(kelime, "|,");
 		while (stringTokenizer.hasMoreTokens()) {
 			String temp = stringTokenizer.nextToken();
 			System.out.println(temp);
